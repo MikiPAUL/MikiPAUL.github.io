@@ -1,1 +1,84 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Library Management</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-score=1.0">
+    <style>
+    	body {
+  background-image: url(library.jpeg);
+  color: black;
+  line-height: normal;
+}
+
+h1 {
+  text-align: center;
+}
+
+.details {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
+
+.frm h3 {
+  display: inline-block;
+  text-align: left;
+  width: 49%;
+}
+
+.legend {
+  font-weight: bold;
+}
+
+.fld {
+  width: 40%;
+}
+
+.sbt{
+  margin-left: 50px;
+}
+
+.tye{
+  margin-left: 300px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to eLibrary</h1>
+    </header>
+    <main>
+        <div class="details">
+            <fieldset>
+                <legend>Enter your credentials</legend>
+                <form class="frm" method="post">
+                    <article class="name">
+                        <label for="name">
+                            <h3>Enter the UserName: </h3>
+                        </label><input dir="ltr" class="fld" type="text" name="name" required>
+                    </article>
+                    <article class="pass">
+                        <label for="pass">
+                            <h3>Enter the Password: </h3>
+                        </label><input dir="ltr" type="password" class="fld" name="pass" required>
+                    </article>
+                    <article class="check">
+                        <input class="sbt" type="submit" value="SUBMIT">
+                        <input class="tye" type="reset" value="RESET">
+                    </article>
+                </form>
+            </fieldset>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
+
+
